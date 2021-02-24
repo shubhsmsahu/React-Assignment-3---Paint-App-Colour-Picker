@@ -11,7 +11,7 @@ const Selection = (props) => {
         applyColor(updateSelectionStyle);
       }}
     >
-      <h2>{id}</h2>
+      <h2 className="subheading">{id}</h2>
     </div>
   );
 };
